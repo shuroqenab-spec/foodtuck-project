@@ -1,4 +1,53 @@
+:root {
+  --primary: #ff9f0d;
+}
+/*sart nav bar*/
 .nav {
-  --bs-nav-link-hover-color: #ff9f0d;
-  --bs-nav-link-color: rgb(255, 255, 255);
+  --bs-nav-link-hover-color: var(--primary);
+  --bs-nav-link-color:#ffffff;
+}
+
+.navbar-toggler {
+  background-color: var(--primary);
+}
+
+.navbar-nav {
+ 
+    --bs-nav-link-color:#ffffff;
+    --bs-nav-link-hover-color: var(--primary);
+
+  
+}
+
+
+/*end nav bar*/
+/*start hero section*/
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero p {
+  color: #ffffff;
+}
+.hero .hero-content {
+  margin-top: 100px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.hero .breadcrumb-item {
+  color: var(--primary);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
 }
