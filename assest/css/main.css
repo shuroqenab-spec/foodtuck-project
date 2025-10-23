@@ -1,6 +1,9 @@
 :root {
   --primary: #ff9f0d;
 }
+.primary-text {
+  color: var(--primary);
+}
 /*sart nav bar*/
 .nav {
   --bs-nav-link-hover-color: var(--primary);
@@ -50,4 +53,32 @@
 }
 .breadcrumb-item + .breadcrumb-item::before {
   color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .hero .hero-content {
+    margin-top: 30px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .hero p {
+    margin-bottom: 1px;
+  }
+  
+}
+/*end hero section*/
+/*start menu-1 section*/
+
+.category p{
+  margin: 0;
+}
+
+.category {
+  margin: 20px 0;
+}
+.card {
+    --bs-card-spacer-x: 4rem;
+    --bs-card-border-width:none;
+}
+.munu-1 .price {
+margin-left: 20px;
 }
