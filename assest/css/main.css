@@ -7,7 +7,7 @@
 /*sart nav bar*/
 .nav {
   --bs-nav-link-hover-color: var(--primary);
-  --bs-nav-link-color:#ffffff;
+  --bs-nav-link-color: #ffffff;
 }
 
 .navbar-toggler {
@@ -15,13 +15,9 @@
 }
 
 .navbar-nav {
- 
-    --bs-nav-link-color:#ffffff;
-    --bs-nav-link-hover-color: var(--primary);
-
-  
+  --bs-nav-link-color: #ffffff;
+  --bs-nav-link-hover-color: var(--primary);
 }
-
 
 /*end nav bar*/
 /*start hero section*/
@@ -63,22 +59,138 @@
   .hero p {
     margin-bottom: 1px;
   }
-  
 }
 /*end hero section*/
 /*start menu-1 section*/
 
-.category p{
+.menu-1 .category p {
   margin: 0;
 }
 
-.category {
-  margin: 20px 0;
+.menu-1 .category {
+  margin: 0;
 }
-.card {
-    --bs-card-spacer-x: 4rem;
-    --bs-card-border-width:none;
+.menu-1 .card {
+  --bs-card-spacer-x: 4rem;
+  --bs-card-border-width: none;
 }
-.munu-1 .price {
-margin-left: 20px;
+.menu-1 {
+  margin: 120px 0;
 }
+/*end menu-1 section*/
+/*start menu-2 section*/
+.menu-2 .category p {
+  margin: 0;
+}
+
+.menu-2 .category {
+  margin: 0;
+}
+.menu-2 .card {
+  --bs-card-spacer-x: 4rem;
+  --bs-card-border-width: none;
+}
+.menu-2 {
+  margin: 120px 0;
+}
+/*end menu-2 section*/
+/*start about us section*/
+.AboutUs-for-lap{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.AboutUs-for-lap .img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.AboutUs-for-lap .overlay {
+  position: absolute;
+  height: 100%;
+  background: #0d0d0dd9;
+  backdrop-filter: blur(1px);
+  z-index: 2;
+}
+.AboutUs-body {
+  position: absolute;
+  z-index: 3;
+
+}
+.AboutUs-body .card {
+  --bs-card-bg: none;
+  --bs-card-border-color: none;
+  color: #ffffff;
+  padding: 103px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutUs-body .card-img {
+ width: 120px;
+  height: 120px;
+  margin-bottom: 40px;
+}
+.AboutUs-body .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*end about us section*/
+.AboutUs-for-tablet{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.AboutUs-for-tablet .img-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+.AboutUs-for-tablet  .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0d0d0dd9;
+  backdrop-filter: blur(1px);
+  z-index: 2;
+}
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-inner {
+  height: 100%;
+  align-items: center;
+}
+
+.carousel-card {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: #fff;
+  padding-top: 140px;
+}
+.carousel-card-img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 40px;
+}
+.carousel-card-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
