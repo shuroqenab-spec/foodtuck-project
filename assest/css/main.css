@@ -210,3 +210,19 @@
   margin: 120px 0;
 }
 /*end menu-3 section*/
+/*start menu-4 section*/
+.menu-4 .category p {
+  margin: 0;
+}
+
+.menu-4 .category {
+  margin: 0;
+}
+.menu-4 .card {
+  --bs-card-spacer-x: 4rem;
+  --bs-card-border-width: none;
+}
+.menu-4 {
+  margin: 120px 0;
+}
+/*end menu-4 section*/
