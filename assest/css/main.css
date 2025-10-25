@@ -4,6 +4,9 @@
 .primary-text {
   color: var(--primary);
 }
+.primary-color {
+  background-color: var(--primary);
+}
 /*sart nav bar*/
 .nav {
   --bs-nav-link-hover-color: var(--primary);
@@ -226,3 +229,17 @@
   margin: 120px 0;
 }
 /*end menu-4 section*/
+/*start Clients section*/
+.Clients .container {
+    --bs-gutter-x: 19.5rem;
+}
+.Clients .Clients-for-taplet .container {
+    --bs-gutter-x: 6.5rem;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 10%; 
+  width: 50px; 
+  height: 0px; 
+
+}
