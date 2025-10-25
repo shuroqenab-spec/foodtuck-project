@@ -141,7 +141,6 @@
   margin-bottom: 20px;
   text-align: center;
 }
-/*end about us section*/
 .AboutUs-for-tablet{
   position: relative;
   width: 100%;
@@ -194,3 +193,20 @@
   font-weight: bold;
 }
 
+/*end about us section*/
+/*start menu-3 section*/
+.menu-3 .category p {
+  margin: 0;
+}
+
+.menu-3 .category {
+  margin: 0;
+}
+.menu-3 .card {
+  --bs-card-spacer-x: 4rem;
+  --bs-card-border-width: none;
+}
+.menu-3 {
+  margin: 120px 0;
+}
+/*end menu-3 section*/
