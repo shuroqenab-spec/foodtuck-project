@@ -326,7 +326,7 @@
 
 @media screen and (max-width: 600px) {
   .Recent-Post ,.container {
-    --bs-gutter-x: 9.5rem;
+    --bs-gutter-x: 7.5rem;
     
   }
 }
