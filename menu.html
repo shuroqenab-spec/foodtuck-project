@@ -1,18 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/css/main.css" />
+      <link rel="stylesheet" href="./assest/css/menu.css" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-
-  <link rel="stylesheet" href="./assest/css/main.css" />
-  <link rel="stylesheet" href="./assest/css/menu.css" />
-</head>
-
-<body>
+  </head>
+  <body>
   <header>
     <nav class="navbar  navbar-expand-lg navbar-light bg-dark">
       <div class="container">
@@ -25,7 +23,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./menu.html">Menu</a>
+            <a class="nav-link" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pages</a>
@@ -71,10 +69,10 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
               <li class="nav-item ">
-                <a class="nav-link " href="index.html">Home</a>
+                <a class="nav-link " href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pages</a>
@@ -95,8 +93,8 @@
       </div>
     </nav>
   </header>
-  <main>
-    <section class="hero mb-5">
+<main>
+      <section class="hero mb-5">
       <img src="./assest/img/public/hero-img.png" class="img-fluid" alt="..." />
       <div class="hero-content d-flex justify-content-center flex-column mb-3">
         <div class="hero-text">
@@ -212,112 +210,6 @@
           </div>
         </div>
     </section>
-    <section class="AboutUs">
-      <div class="AboutUs-for-lap d-lg-block d-none ">
-        <img src="./assest/img/public/AboutUs-img.png" class="img img-fluid w-100" alt="...">
-        <div class="overlay w-100"> </div>
-        <div class="AboutUs-body d-flex ">
-          <div class="row">
-
-            <div class="card col ">
-              <img src="./assest/img/AboutUs-img/ProfessionalChefs.png" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h2 class="card-title">420</h2>
-                <p class="card-text text-nowrap fw-bold">Professional Chefs</p>
-              </div>
-            </div>
-
-            <div class="card col">
-              <img src="./assest/img/AboutUs-img/ItemsOFood.png" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h2 class="card-title">320</h2>
-                <p class="card-text fw-bold">Items Of Food</p>
-              </div>
-
-            </div>
-            <div class="card col">
-              <img src="./assest/img/AboutUs-img/YearsOfExperienced.png" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h2 class="card-title">30+</h2>
-                <p class="card-text text-nowrap fw-bold"> Years Of Experienced</p>
-              </div>
-            </div>
-            <div class="card col ">
-              <img src="./assest/img/AboutUs-img/HappyCustomers.png" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h2 class="card-title">220</h2>
-                <p class="card-text fw-bold text-nowrap">Happy Customers </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="AboutUs-for-tablet d-lg-none d-block ">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assest/img/public/AboutUs-img.png" class="d-block w-100 img-background" alt="...">
-              <div class="overlay w-100"> </div>
-              <div class="carousel-card ">
-                <img src="./assest/img/AboutUs-img/ProfessionalChefs.png"
-                  class="carousel-card-img-top carousel-card-img" alt="...">
-                <div class="carousel-card-body">
-                  <h2 class="carousel-card-title">420</h2>
-                  <p class="carousel-card-text fw-bold">Professional Chefs</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <img src="./assest/img/public/AboutUs-img.png" class="d-block w-100 img-background" alt="...">
-              <div class="overlay w-100"> </div>
-              <div class="carousel-card ">
-                <img src="./assest/img/AboutUs-img/ItemsOFood.png" class="carousel-card-img-top carousel-card-img"
-                  alt="...">
-                <div class="carousel-card-body">
-                  <h2 class="carousel-card-title">320</h2>
-                  <p class="carousel-card-text fw-bold">Items Of Food</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <img src="./assest/img/public/AboutUs-img.png" class="d-block w-100 img-background" alt="...">
-              <div class="overlay w-100"> </div>
-              <div class="carousel-card ">
-                <img src="./assest/img/AboutUs-img/YearsOfExperienced.png"
-                  class="carousel-card-img-top carousel-card-img" alt="...">
-                <div class="carousel-card-body">
-                  <h2 class="carousel-card-title">30+</h2>
-                  <p class="carousel-card-text fw-bold">Years Of Experienced</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <img src="./assest/img/public/AboutUs-img.png" class="d-block w-100 img-background" alt="...">
-              <div class="overlay w-100"> </div>
-              <div class="carousel-card ">
-                <img src="./assest/img/AboutUs-img/HappyCustomers.png" class="carousel-card-img-top carousel-card-img"
-                  alt="...">
-                <div class="carousel-card-body">
-                  <h2 class="carousel-card-title">220</h2>
-                  <p class="carousel-card-text fw-bold">Happy Customers </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
     <section class="menu-3 ">
       <div class="card mb-3 d-flex justify-content-center align-items-center">
         <div class="row g-0">
@@ -419,78 +311,144 @@
           </div>
         </div>
     </section>
-    <section class="Clients mb-5">
-      <p class="text-center">Partners & Clients</p>
-      <p class="text-center fs-1 fw-bold">We work with the best pepole</p>
-      <div class="Clients-for-lap d-md-block d-none  ">
-        <div class="container">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-2 d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/Restaurant.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-2  d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/Bakeryy.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-2  d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/fork&spoon.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-2 d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/wolf-coffee.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-2 d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/Bistro.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-2  d-flex justify-content-center align-items-center">
-              <img src="./assest/img/Clients/BAKERY.png" class="img-fluid" alt="...">
+    <section class="menu-5 ">
+      <div class="card mb-3 d-flex justify-content-center align-items-center">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assest/img/menu/Sandwiches.jpg" class="img-fluid rounded-start " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <img src="assest/img/public/Coffee.png" alt="">
+              <h1 class="card-title fw-bold">Sandwiches Menu</h1>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Zinger</p>
+                  <p class="card-text"><small class="text-body-secondary">Chicken breast cheese, bread, lettuce and tomatoes</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text ">32$</div>
+              </div>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Polo with potatoes</p>
+                  <p class="card-text"><small class="text-body-secondary">Chicken breast, sauce, lettuce, French fries </small></p>
+                  <p class="card-text "><small class="text-body-tertiary">700 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">43$</div>
+              </div>
+              <div class="category d-flex d-lg-flex d-md-none ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Crispy chicken</p>
+                  <p class="card-text"><small class="text-body-secondary">Lettuce and tomato, marinated chicken breast, French fries</small></p>
+                  <p class="card-text"><small class="text-body-tertiary">1000 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">14$</div>
+              </div>
+              <div class="category d-lg-flex d-flex d-md-none">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Philly cheese with potatoes</p>
+                  <p class="card-text"><small class="text-body-secondary">Fried beef with onions, sandwich bread, and cheese</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">35$</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="Clients-for-taplet for phone d-md-none d-block ">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                  <div class="col-4  d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/Restaurant.png" class="img-fluid" alt="...">
-                  </div>
-                  <div class="col-4  d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/Bakeryy.png" class="img-fluid" alt="...">
-                  </div>
-                  <div class="col-4  d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/fork&spoon.png" class="img-fluid" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                  <div class="col-4 d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/wolf-coffee.png" class="img-fluid" alt="...">
-                  </div>
-                  <div class="col-4 d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/Bistro.png" class="img-fluid" alt="...">
-                  </div>
-                  <div class="col-4 d-flex justify-content-center align-items-center">
-                    <img src="./assest/img/Clients/BAKERY.png" class="img-fluid" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
+    </section>
+    <section class="menu-6">
+      <div class="card mb-3 d-flex justify-content-center align-items-center">
+        <div class="row g-0">
 
+          <div class="col-md-8">
+            <div class="card-body">
+              <img src="assest/img/public/Coffee.png" alt="">
+              <h1 class="card-title mb- fw-bold">Family meals menu</h1>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Kabsa</p>
+                  <p class="card-text"><small class="text-body-secondary">Rice, (chicken or meat), onions, garlic, tomatoes, and tomato paste</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="price p-4 flex-shrink-1 primary-text ">32$</div>
+              </div>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Mansaf</p>
+                  <p class="card-text"><small class="text-body-secondary">Lamb, Jameed (dried yogurt), cooked rice, Shrak bread, roasted nuts</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">700 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">43$</div>
+              </div>
+              <div class="category d-flex d-lg-flex d-md-none ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Biryani</p>
+                  <p class="card-text"><small class="text-body-secondary">Rice, marinated chicken or meat Fried onions, tomatoes</small></p>
+                  <p class="card-text"><small class="text-body-tertiary">1000 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">14$</div>
+              </div>
+              <div class="category d-lg-flex d-flex d-md-none">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">muskhan</p>
+                  <p class="card-text"><small class="text-body-secondary">Grilled chicken, taboon bread, Onions cooked in olive oil, Sumac</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">35$</div>
+              </div>
+            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon primary-color" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon primary-color" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="col-md-4">
+            <img src="./assest/img/menu/Family-meals.png" class="img-fluid rounded-start " alt="...">
+          </div>
         </div>
-      </div>
+    </section>
+    <section class="menu-7">
+      <div class="card mb-3 d-flex justify-content-center align-items-center">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assest/img/menu/Pasta.png" class="img-fluid rounded-start " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <img src="assest/img/public/Coffee.png" alt="">
+              <h1 class="card-title fw-bold">Pasta Menu</h1>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Fettuccine Alfredo</p>
+                  <p class="card-text"><small class="text-body-secondary">Fettuccine pasta, Heavy cooking cream,Butter, Grated Parmesan cheese.</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text ">32$</div>
+              </div>
+              <div class="category d-flex ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Lasagna</p>
+                  <p class="card-text"><small class="text-body-secondary">Lasagna sheets, Bolognese sauce, béchamel sauce, cheese</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">700 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">43$</div>
+              </div>
+              <div class="category d-flex d-lg-flex d-md-none ">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">vegetable spaghetti</p>
+                  <p class="card-text"><small class="text-body-secondary">Spaghetti, bell peppers, carrots, onions, garlic, olive oil, sauce</small></p>
+                  <p class="card-text"><small class="text-body-tertiary">1000 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">14$</div>
+              </div>
+              <div class="category d-lg-flex d-flex d-md-none">
+                <div class="p-2 w-100">
+                  <p class="card-text fw-bold fs-5">Penne Arrabbiata</p>
+                  <p class="card-text"><small class="text-body-secondary">Penne pasta (tube-shaped), tomato sauce, chopped garlic, hot chili, olive oil.</small></p>
+                  <p class="card-text "><small class="text-body-tertiary">560 CAL</small></p>
+                </div>
+                <div class="p-4  flex-shrink-1 primary-text">35$</div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
     <footer class="mt-5 bg-dark">
 
@@ -609,13 +567,14 @@
         </div>
       </div>
     </footer>
-  </main>
+
+</main>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-<script src="./assest/js/main.js"></script>
-</body>
 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>
