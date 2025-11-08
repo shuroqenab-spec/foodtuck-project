@@ -13,6 +13,17 @@
 .b-border-primary {
   border-bottom: 2px solid var(--primary);
 }
+.btn-primary{
+  background-color: #ffffff ;
+  color: var(--primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 /*sart nav bar*/
 .nav {
   --bs-nav-link-hover-color: var(--primary);
@@ -30,6 +41,7 @@
 .nav-link {
     color: #ffffff;
 }
+
 
 /*end nav bar*/
 /*start hero section*/
@@ -207,17 +219,7 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-primary{
-  background-color: #ffffff ;
-  color: var(--primary);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 0px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
+
 .Working-hours{
   align-items: center;
 }
@@ -268,13 +270,6 @@
     
   }
 }
-@media screen and (max-width: 600px) {
-  .Recent-Post .card .row {
-    flex-wrap: nowrap;
-  }
-  .Recent-Post .card h6 {
-    font-size: .75rem;
-}
-}
+
 
 
